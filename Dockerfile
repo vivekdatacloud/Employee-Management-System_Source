@@ -1,4 +1,4 @@
 FROM openjdk:17
 EXPOSE 8082
-ADD target/petclinic.war petclinic.war
-ENTRYPOINT ["java","-jar","/petclinic.war"]
+ADD target/ems-1.0-SNAPSHOT.jar ems-1.0-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/ems-1.0-SNAPSHOT.jar"]
